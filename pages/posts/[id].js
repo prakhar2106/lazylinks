@@ -1,7 +1,7 @@
 import { getAllPostIds, getPostData } from "../../lib/posts";
 
 export default function Post({ postData }) {
-  return <div>Hello {postData?.name}</div>;
+  return <div>Hello {postData?.name} - {postData?.meta}</div>;
 }
 
 export async function getStaticPaths() {
