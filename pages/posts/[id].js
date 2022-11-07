@@ -1,7 +1,8 @@
 import { getAllPostIds, getPostData } from "../../lib/posts";
+import styles from "../../styles/Profile.module.css";
 
 export default function Post({ postData }) {
-  return <div>Hello {postData?.name} - {postData?.meta}</div>;
+  return <div className={styles.maincontainer}>Hello {postData?.name} - {postData?.meta}</div>;
 }
 
 export async function getStaticPaths() {
