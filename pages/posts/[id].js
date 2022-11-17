@@ -1,8 +1,20 @@
 import { getAllPostIds, getPostData } from "../../lib/posts";
-import styles from "../../styles/Profile.module.css";
-
+import links from "../../data/links.json";
+import LinkCard from "../../components/linkCard";
+import MainCard from "../../components/mainCard";
 export default function Post({ postData }) {
-  return <div className={styles.maincontainer}>Hello {postData?.name} - {postData?.meta}</div>;
+  return (
+    <>
+      <MainCard postData={postData} />
+      <div className="linkCardContainer">
+        <div className="linkCardGridContainer">
+          {links.map((linkData, index) => {
+            return <LinkCard data={linkData} key={index}></LinkCard>;
+          })}
+        </div>
+      </div>
+    </>
+  );
 }
 
 export async function getStaticPaths() {
