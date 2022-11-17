@@ -9,9 +9,8 @@ function linkCard({ data }) {
     >
       <div className="linkCard">
         <img src={logo} alt="logo" />
-        <a href={`https://${domain}`}>
-          {" "}
-          <p>{name}</p>
+        <a href={`https://${domain}`} style={{ marginBottom: "1rem" }}>
+          {name}
         </a>
       </div>
     </div>
