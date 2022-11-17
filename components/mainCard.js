@@ -1,10 +1,10 @@
 import React from "react";
 import Heading from "./heading";
 
-function mainCard({postData}) {
+function mainCard({ postData }) {
   return (
     <div className="mainCard">
-      <Heading  name={`${postData.domainName} Partners`}/>
+      <Heading name={`${postData?.domainName || "Our"} Partners`} />
     </div>
   );
 }
