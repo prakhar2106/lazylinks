@@ -16,9 +16,31 @@ export default function Post({ postData }) {
       <MainCard postData={postData} />
       <div className="linkCardContainer">
         <div className="linkCardGridContainer">
-          {links.map((linkData, index) => {
-            return <LinkCard data={linkData} key={index}></LinkCard>;
-          })}
+          {postData?.links ? (
+            <>
+             {postData?.links.map((linkData, index) => {
+                return (
+                  <LinkCard
+                    data={linkData}
+                    keyword={linkData?.title || ""}
+                    key={index}
+                  ></LinkCard>
+                );
+              })}
+            </>
+          ) : (
+            <>
+              {links.map((linkData, index) => {
+                return (
+                  <LinkCard
+                    data={linkData}
+                    keyword={linkData?.title || ""}
+                    key={index}
+                  ></LinkCard>
+                );
+              })}
+            </>
+          )}
         </div>
       </div>
     </>
@@ -39,5 +61,6 @@ export async function getStaticProps({ params }) {
     props: {
       postData,
     },
+    revalidate: 60,
   };
 }

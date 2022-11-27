@@ -88,8 +88,10 @@ a {
 
 .linkCard {
   display: flex;
-  height: 200px;
+  height: inherit;
   width: 100%;
+  min-height: 250px;
+  min-width: 250px;
   cursor: pointer;
   flex-direction: column;
   justify-content: center;
@@ -406,7 +408,7 @@ a {
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1300px) {
   .linkCardGridContainer {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -415,7 +417,7 @@ a {
   }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
+@media screen and (min-width: 1300px) and (max-width: 1200px) {
   .linkCardGridContainer {
     grid-template-columns: repeat(4, 1fr);
   }

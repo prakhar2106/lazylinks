@@ -1,102 +1,102 @@
 [
   {
-    "name": "Adobe",
-    "domain": "adobe.com",
+    "title": "Adobe",
+    "url": "adobe.com",
     "logo": "https://logo.clearbit.com/adobe.com"
   },
   {
-    "name": "ATT",
-    "domain": "att.com",
+    "title": "ATT",
+    "url": "att.com",
     "logo": "https://logo.clearbit.com/att.com"
   },
   {
-    "name": "AOL.com",
-    "domain": "aol.com",
+    "title": "AOL.com",
+    "url": "aol.com",
     "logo": "https://logo.clearbit.com/aol.com"
   },
   {
-    "name": "ADP",
-    "domain": "adp.com",
+    "title": "ADP",
+    "url": "adp.com",
     "logo": "https://logo.clearbit.com/adp.com"
   },
   {
-    "name": "AccuWeather",
-    "domain": "accuweather.com",
+    "title": "AccuWeather",
+    "url": "accuweather.com",
     "logo": "https://logo.clearbit.com/accuweather.com"
   },
   {
-    "name": "Avature",
-    "domain": "avature.net",
+    "title": "Avature",
+    "url": "avature.net",
     "logo": "https://logo.clearbit.com/avature.net"
   },
   {
-    "name": "Availity",
-    "domain": "availity.com",
+    "title": "Availity",
+    "url": "availity.com",
     "logo": "https://logo.clearbit.com/availity.com"
   },
   {
-    "name": "Avast",
-    "domain": "avast.com",
+    "title": "Avast",
+    "url": "avast.com",
     "logo": "https://logo.clearbit.com/avast.com"
   },
   {
-    "name": "Avant",
-    "domain": "avant.com",
+    "title": "Avant",
+    "url": "avant.com",
     "logo": "https://logo.clearbit.com/avant.com"
   },
   {
-    "name": "AvantLink",
-    "domain": "avantlink.com",
+    "title": "AvantLink",
+    "url": "avantlink.com",
     "logo": "https://logo.clearbit.com/avantlink.com"
   },
   {
-    "name": "PayPal",
-    "domain": "paypal.com",
+    "title": "PayPal",
+    "url": "paypal.com",
     "logo": "https://logo.clearbit.com/paypal.com"
   },
   {
-    "name": "Pinterest",
-    "domain": "pinterest.com",
+    "title": "Pinterest",
+    "url": "pinterest.com",
     "logo": "https://logo.clearbit.com/pinterest.com"
   },
   {
-    "name": "Patreon",
-    "domain": "patreon.com",
+    "title": "Patreon",
+    "url": "patreon.com",
     "logo": "https://logo.clearbit.com/patreon.com"
   },
   {
-    "name": "PNC",
-    "domain": "pnc.com",
+    "title": "PNC",
+    "url": "pnc.com",
     "logo": "https://logo.clearbit.com/pnc.com"
   },
   {
-    "name": "POLITICO",
-    "domain": "politico.com",
+    "title": "POLITICO",
+    "url": "politico.com",
     "logo": "https://logo.clearbit.com/politico.com"
   },
   {
-    "name": "Reddit",
-    "domain": "reddit.com",
+    "title": "Reddit",
+    "url": "reddit.com",
     "logo": "https://logo.clearbit.com/reddit.com"
   },
   {
-    "name": "Roblox",
-    "domain": "roblox.com",
+    "title": "Roblox",
+    "url": "roblox.com",
     "logo": "https://logo.clearbit.com/roblox.com"
   },
   {
-    "name": "Realtor.com",
-    "domain": "realtor.com",
+    "title": "Realtor.com",
+    "url": "realtor.com",
     "logo": "https://logo.clearbit.com/realtor.com"
   },
   {
-    "name": "Redfin",
-    "domain": "redfin.com",
+    "title": "Redfin",
+    "url": "redfin.com",
     "logo": "https://logo.clearbit.com/redfin.com"
   },
   {
-    "name": "Rakuten",
-    "domain": "rakuten.com",
+    "title": "Rakuten",
+    "url": "rakuten.com",
     "logo": "https://logo.clearbit.com/rakuten.com"
   }
 ]
