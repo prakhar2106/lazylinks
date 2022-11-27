@@ -13,14 +13,14 @@ function LinkCard({ data, keyword }) {
 
   return (
     <div
-      style={{ cursor: "pointer",height: "inherit" }}
+      style={{ cursor: "pointer", height: "inherit" }}
       onClick={() => {
         window.open(`https://${url}`, "_blank");
       }}
     >
       <div className="linkCard">
         <img src={logo} alt="logo" />
-        <a href={`https://${url}`} style={{ marginBottom: "1rem" }}>
+        <a href={url} style={{ marginBottom: "1rem" }}>
           {keywordForBackLink}
         </a>
       </div>
