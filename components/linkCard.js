@@ -15,7 +15,7 @@ function LinkCard({ data, keyword }) {
     <div
       style={{ cursor: "pointer", height: "inherit" }}
       onClick={() => {
-        window.open(`https://${url}`, "_blank");
+        window.open(`${url}`, "_blank");
       }}
     >
       <div className="linkCard">
