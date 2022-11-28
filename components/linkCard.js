@@ -20,7 +20,13 @@ function LinkCard({ data, keyword }) {
     >
       <div className="linkCard">
         <img src={logo} alt="logo" />
-        <a href={url} style={{ marginBottom: "1rem" }}>
+        <a
+          href={url}
+          style={{ marginBottom: "1rem" }}
+          onClick={(e) => {
+            e.preventDefault();
+          }}
+        >
           {keywordForBackLink}
         </a>
       </div>
