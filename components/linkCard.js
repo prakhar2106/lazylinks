@@ -21,6 +21,7 @@ function LinkCard({ data, keyword }) {
       <div className="linkCard">
         <img src={logo} alt="logo" />
         <a
+         rel="nofollow"
           href={url}
           style={{ marginBottom: "1rem" }}
           onClick={(e) => {

@@ -2,7 +2,6 @@ import { getAllPostIds, getPostData } from "../../lib/posts";
 import links from "../../data/links.json";
 import LinkCard from "../../components/linkCard";
 import MainCard from "../../components/mainCard";
-
 import Head from "next/head";
 
 export default function Post({ postData }) {
